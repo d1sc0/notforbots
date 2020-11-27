@@ -15,3 +15,4 @@ To do
 - Make sure only logged in users can add robots
 - Allow logged in users to rate robots using a cloud function?
 - Store and update ratings on robot cards
+- filter and sort the index page based on most recent or highest rated or name
