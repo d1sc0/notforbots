@@ -7,8 +7,10 @@ Hoping to use it to play with firebase (firestore, authentication, cloud functio
 To do
 
 - Create index template with robot cards
-- Create a form to add robots to a database (firestore) using a cloud function?
-- Update index template to only get bots from database
+- Create a form to add robots
+- Convert into Vue project and components and views
+- Update index template get bots from database
+- Update form template to add bots to database
 - Create a login form for people to register
 - Make sure only logged in users can add robots
 - Allow logged in users to rate robots using a cloud function?
