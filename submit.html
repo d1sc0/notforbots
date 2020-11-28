@@ -14,7 +14,7 @@
   <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
     <div class="container">
     <div class="navbar-brand">
-      <h1><a class="navbar-item is-size-4 has-text-weight-semibold" href="/">
+      <h1 class="title is-4 mb-0"><a class="navbar-item" href="/">
         RateMyRobot!
       </a></h1>
 
@@ -37,541 +37,52 @@
     </div>
   </nav>
  
-  <!--Hero section-->
-  <section class="hero is-warning has-text-centered">
-    <div class="hero-body">
-      <div class="container px-5">
-        <h1 class="title">
-          Welcome to RateMyRobot!
-        </h1>
-        <h2 class="subtitle">A silly hobby project I've bult for people to upload and rate picture of robots.</h2>
-      </div>
-    </div>
-  </section>
+<!--Form section-->
 
 <!--Card sections-->
-<section class="cards">
-<div class="container px-5">
-  <h2 class="subtitle mt-5">Meet the robots!</h2>
-    <div class="row columns is-multiline is-3">
-      
-        <!--card-->
-        <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating: 
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-              Phasellus nec iaculis mauris.
-              <br/>
-              <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-        </div>
-        <!--end of card-->
-
-        <!--card-->
-        <div class="column is-one-quarter">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content pt-1">
-              <div class="content">
-                <h5 class="my-2">Name: ROBOTX</h5>
-                <h5 class="my-1">Rating:
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                </h5>
-                <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                  Phasellus nec iaculis mauris.
-                  <br />
-                  <button class="button is-warning is-small mt-2">Rate this robot!</button>
-                </p>
+<section class="form-section">
+    <div class="container p-5">
+        <div class="column is-three-fifths is-offset-one-fifth has-background-light">
+          <h1 class="title is-4">Submit a new Robot!</h1>
+          <form class="p-5">
+            <div class="field">
+              <label class="label">What is the Robot's name?</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Text input">
               </div>
             </div>
-          </div>
-        </div>
-        <!--end of card-->
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
+            <div class="field">
+              <label class="label">What's special about your robot?</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Textarea"></textarea>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
+           
+            <div id="file-js-example" class="file has-name">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume">
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span class="file-label">
+                    Choose a file…
+                  </span>
+                </span>
+                <span class="file-name">
+                  No file uploaded
+                </span>
+              </label>
             </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
-      
-      <!--card-->
-      <div class="column is-one-quarter">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://via.placeholder.com/1024x768/eee?text=robot_pic" alt="Placeholder image">
-            </figure>
-          </div>
-          <div class="card-content pt-1">
-            <div class="content">
-              <h5 class="my-2">Name: ROBOTX</h5>
-              <h5 class="my-1">Rating:
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </h5>
-              <p class="">Lorem ipsum dolor sit amet, cons ectetur adip iscing elit.
-                Phasellus nec iaculis mauris.
-                <br />
-                <button class="button is-warning is-small mt-2">Rate this robot!</button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end of card-->
 
+            <div class="field">
+            <div class="control">
+              <button class="button is-link mt-5">Submit</button>
+            </div>
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
-  </div>
 </section>
 
   <script src="/script.js"></script>
